@@ -51,7 +51,7 @@ const Homepage = () => {
                   Lihat Paket
                 </button>
                 <button
-                  onClick={() => navigate("/kelas")}
+                  onClick={() => navigate("/produk")}
                   className="btn btn-outline-light btn-lg rounded-3"
                 >
                   Lihat Promo
@@ -95,7 +95,7 @@ const Homepage = () => {
             <Col className="d-flex justify-content-center mb-10">
               <button
                 className="btn btn-primary d-flex align-items-center gap-2 rounded-5"
-                onClick={() => navigate("/kelas")}
+                onClick={() => navigate("/produk")}
               >
                 Lihat Semua Paket <FaChevronRight />
               </button>
