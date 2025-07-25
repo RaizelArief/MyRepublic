@@ -28,33 +28,43 @@ const Homepage = () => {
       <header className=" p-10 mt-9">
         <Container>
           <Row className="header-box">
-            <Col>
+            <Col md={6}>
               <h1>
-                Temukan <br /> <span>Paket yang sesuai seleramu </span> <br />{" "}
-                Bersama kami
+                Temukan <span>Paket Sesuai Seleramu</span>
+                <br />
+                Bersama Kami
               </h1>
               <p>
-                Banyak PAKET Yang Harganya TERJANGKAU dan Sinyal yang lebih
-                bagus.
+                Banyak <strong>PAKET</strong> yang harganya{" "}
+                <strong>TERJANGKAU</strong> dan sinyalnya lebih bagus.
               </p>
-              <p className="font-bold text-m">
-                Kami Hadir di Wilayah Ciputat, Depok, Pamulang. Sekitar Tangsel dan Jaksel serta Depok.
+              <p>
+                Kami hadir di wilayah Ciputat, Depok, Pamulang,
+                <br /> sekitar Tangsel dan Jaksel.
               </p>
-              <button
-                onClick={scrollToPaket}
-                className="btn btn-danger btn-lg rounded-1 me-2 mb-xs-0 mb-4 m-2"
-              >
-                Lihat Paket
-              </button>
-              <button
-                onClick={() => navigate("/kelas")}
-                className="btn btn-primary btn-lg rounded-1 me-2 mb-xs-0 mb-4 m-2"
-              >
-                Lihat Promo
-              </button>
+
+              <div className="d-flex flex-wrap gap-2 mt-4">
+                <button
+                  onClick={scrollToPaket}
+                  className="btn btn-danger btn-lg rounded-3"
+                >
+                  Lihat Paket
+                </button>
+                <button
+                  onClick={() => navigate("/kelas")}
+                  className="btn btn-outline-light btn-lg rounded-3"
+                >
+                  Lihat Promo
+                </button>
+              </div>
             </Col>
+            {/* Image */}
             <Col>
-              <img src={HeroImage} alt="" className="animate__animated animate__fadeInUp"/>
+              <img
+                src={HeroImage}
+                alt=""
+                className="animate__animated animate__fadeInUp"
+              />
             </Col>
           </Row>
         </Container>
@@ -134,7 +144,7 @@ const Homepage = () => {
                   <SwiperSlide key={data.id} className="shadow-sm ">
                     <p className="desc">{data.desc}</p>
                     <div className="people">
-                      <img src={data.image} alt=""/>
+                      <img src={data.image} alt="" />
                       <div>
                         <h5 className="mb-1">{data.name}</h5>
                         <p className="m-0 fw-bold">{data.skill}</p>

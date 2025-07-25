@@ -30,6 +30,24 @@ import Paket5 from "../assets/img/paket/Paket5.png";
 const baseWa = "https://wa.me/6289661600044?text=";
 export const rawPaket = [
   {
+    id: 0,
+    name: "Neun",
+    originalSpeed: "20 Mbps",
+    speed: "30 Mbps",
+    oldSpeed: "20 Mbps",
+    newSpeed: "30 Mbps",
+    price: 227000,
+    features: [
+      "Gratis Upgrade Speed 30 Mbps",
+      "Internet UNLIMITED",
+      "Include ONT/Modem",
+      "Gratis Instalasi Rp 500.000",
+      "Ideal untuk 1–2 Device",
+    ],
+    image: Paket1,
+    buyText: "Daftar Fast",
+  },
+  {
     id: 1,
     name: "Value",
     originalSpeed: "30 Mbps",
@@ -683,7 +701,7 @@ export const dataSwiper = [
   },
   {
     id: 5,
-    desc: "Tim kantor kami pindah ke WFH dan MyRepublic jadi solusi tepat. Internetnya cepat dan customer service-nya responsif, sebelumnya memakai WiFi Lemot.",
+    desc: "Tim kantor kami pindah ke WFH dan MyRepublic jadi solusi tepat. Internetnya cepat dan customer service-nya responsif.",
     image: People5,
     name: "Natalie Aprilia",
     skill: "HR Manager",
