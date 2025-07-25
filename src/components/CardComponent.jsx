@@ -22,7 +22,7 @@ export default function CardPaket({ paket }) {
 
   return (
     <Card className="h-100 shadow-sm">
-      <Card.Img variant="top" src={paket.image} />
+      <Card.Img variant="top" src={paket.image}  />
       <Card.Body className="d-flex flex-column">
         {/* Judul Paket */}
         <Card.Title className="fw-bold">{paket.name}</Card.Title>

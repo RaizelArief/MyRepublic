@@ -21,6 +21,7 @@ import People10 from "../assets/img/testimonial/People10.png";
 import People11 from "../assets/img/testimonial/People11.png";
 import People12 from "../assets/img/testimonial/People12.png";
 
+import Paket0 from "../assets/img/paket/Paket0_resized.png";
 import Paket1 from "../assets/img/paket/Paket1.png";
 import Paket2 from "../assets/img/paket/Paket2.png";
 import Paket3 from "../assets/img/paket/Paket3.png";
@@ -44,7 +45,7 @@ export const rawPaket = [
       "Gratis Instalasi Rp 500.000",
       "Ideal untuk 1–2 Device",
     ],
-    image: Paket1,
+    image: Paket0,
     buyText: "Daftar Fast",
   },
   {
