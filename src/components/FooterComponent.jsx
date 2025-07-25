@@ -30,7 +30,7 @@ const FooterComponent = () => {
             <div className="mail">
               <Link className="text-decoration-none">
                 <i className="fa-regular fa-envelope"></i>
-                <p className="m-0">dianuve@gmail.com</p>
+                <p className="m-0">raizeluve@gmail.com</p>
               </Link>
             </div>
           </Col>
