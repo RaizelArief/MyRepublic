@@ -46,7 +46,7 @@ export const rawPaket = [
       "Ideal untuk 1–2 Device",
     ],
     image: Paket0,
-    buyText: "Daftar Fast",
+    buyText: "Daftar Neun",
   },
   {
     id: 1,
